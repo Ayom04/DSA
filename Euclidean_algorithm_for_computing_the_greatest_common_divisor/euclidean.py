@@ -48,4 +48,4 @@ print(EuclideanGCD(98, 56))  # 14
 print(EuclideanGCD(100, 100))  # 100
 print(EuclideanGCD(18, 24))  # 6
 print(EuclideanGCD(10, 20))  # 10
-print(EuclideanGCD(0, 0))  # 20
+print(EuclideanGCD(0, 0))  # None
