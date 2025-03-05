@@ -15,6 +15,13 @@ You can assume that the array is non-empty.
 let minimumValue = -Infinity;
 
 const maxValue = (nums) => {
+  // Steps:
+  // 1. create a variable to store the minimum value
+  // 2. loop through the numbers array
+  // 3. check if the current number is greater than the minimum value
+  // 4. if it is, update the minimum value
+  // 5. return the minimum value
+
   for (let num of nums) {
     if (num > minimumValue) {
       minimumValue = num;

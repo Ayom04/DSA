@@ -18,6 +18,13 @@ def most_frequent_char(s):
     Time: O(n)
     Space: O(n)
 
+    Steps:
+    1. Create an object/hashmap to store the count of characters.
+    2. Iterate through the string and count the frequency of each character.
+    3. Iterate through the object and find the character with the highest count.
+    4. Return the character with the highest count.
+
+
     """
     pass  # todo
     count = {}

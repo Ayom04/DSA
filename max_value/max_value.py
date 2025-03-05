@@ -11,6 +11,18 @@ def max_value(nums):
         _type_: _description_
         The maximum value in the list. If the list is empty, it returns float('-inf').
 
+    Complexity:
+        Time: O(n)
+        Space: O(1)
+
+    Steps:
+    1. Initialize a variable `minimum_value` with the smallest possible value in Python, which is float('-inf').
+    2. Iterate through the list of numbers.
+    3. If the current number is greater than `minimum_value`, update `minimum_value` with the current number.
+    4. After iterating through the entire list, return `minimum_value`.
+
+
+
     """
     minimum_value = float("-inf")
     for num in nums:

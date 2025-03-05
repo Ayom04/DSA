@@ -5,6 +5,17 @@ if the number is less than or equal to 1,returns false
 iterate over from 2 to n, if n mod i is 0, return false
 To optimize the code, we can iterate from 2 to the square root of n to give 0(sqrt(n))
 return true
+
+Complexity:
+Time: O(sqrt(n))
+Space: O(1)
+
+Steps:
+1. Check if the number is less than or equal to 1. If it is, return False.
+2. Iterate from 2 to the square root of the number.
+3. If the number is divisible by any of the iterations, return False.
+4. If the loop completes without returning False, return True.
+
 """
 import math
 

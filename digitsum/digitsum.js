@@ -1,3 +1,12 @@
+/**
+ * digitSum - returns the sum of the digits of a number.
+ * @param {*} n
+ * @returns  {number} - the sum of the digits of the number.
+ * @private
+ * Complexity:
+ * Time: O(log n) - where n is the number of digits
+ * Space: O(1) - no additional space is used except for the variables `total` and `val`
+ */
 const digitSum = (n) => {
   let total = n.split("").reduce((acc, val) => acc + Number(val), 0);
   return total;

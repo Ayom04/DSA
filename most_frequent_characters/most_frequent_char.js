@@ -7,6 +7,17 @@
  * Space: 0(n)
  */
 const mostFrequentChar = (string) => {
+  //steps
+  // 1. create an object to store the count of each character
+  // 2. loop through the string
+  // 3. check if the character is in the count object
+  // 4. if it is not, add the character to the count object
+  // 5. if it is, increment the count of the character
+  // 6. create a variable to store the most frequent character
+  // 7. loop through the string
+  // 8. check if the current character is the most frequent character
+  // 9. if it is, update the most frequent character
+  // 10. return the most frequent character
   let count = {};
   for (let char of string) {
     if (!(char in count)) {
