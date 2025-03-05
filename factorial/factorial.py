@@ -37,6 +37,14 @@ def factorialRecursive(n):
     Complexity:
     Time: O(n)
     Space: O(n)
+
+    Steps:
+    1. Base case: if n is less than or equal to 1, return 1.
+    2. Otherwise, return n times the factorial of (n-1).
+    3. The function calls itself recursively until it reaches the base case.
+    4. The function returns the product of n and the factorial of (n-1).
+    5. The recursive calls are stored in the call stack until the base case is reached.
+    6. The function returns the final result from the call stack.
     """
 
     if n <= 1:

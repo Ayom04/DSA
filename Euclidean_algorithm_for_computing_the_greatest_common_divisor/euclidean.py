@@ -32,7 +32,7 @@ def EuclideanGCD(x, y):
 
     """
     Hers's the big deal now
-    the algo is applied from the bigger to smaler number
+    the algo is applied from the bigger to smaller number
     if a is greater 
     
     """
@@ -42,7 +42,7 @@ def EuclideanGCD(x, y):
         return EuclideanGCD(x, y - x)
 
 
-# test the
+# Exmaple usage
 print(EuclideanGCD(60, 48))  # 12
 print(EuclideanGCD(98, 56))  # 14
 print(EuclideanGCD(100, 100))  # 100

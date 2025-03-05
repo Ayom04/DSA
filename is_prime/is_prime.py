@@ -36,3 +36,31 @@ print(is_prime(1))  # False
 print(is_prime(2))  # True
 print(is_prime(9))  # False
 print(is_prime(4))  # False
+
+
+def _is_prime(n):
+    """
+    A helper function to check if a number is prime
+
+    Args:
+        n (int): The number to check
+
+    Returns:
+        bool: True if the number is prime, False otherwise
+
+    Complexity:
+        Time: O(n)
+        Space: O(1)
+    """
+    for i in range(2, n):
+        if n % i == 0:
+            return False
+    return True
+
+
+print(_is_prime(9))  # False
+print(_is_prime(10))  # False
+print(_is_prime(11))  # True
+print(_is_prime(12))  # False
+print(_is_prime(13))  # True
+print(_is_prime(14))  # False
