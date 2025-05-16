@@ -37,7 +37,7 @@ const mostFrequentChar = (string) => {
 
 // Test cases
 console.log(mostFrequentChar("hello")); // l
-console.log(mostFrequentChar("world")); // o
+console.log(mostFrequentChar("world")); // w
 console.log(mostFrequentChar("aabbcc")); // a
 console.log(mostFrequentChar("abc")); // a
 console.log(mostFrequentChar("abcc")); // c
@@ -46,4 +46,4 @@ console.log(mostFrequentChar("")); // null
 console.log(mostFrequentChar("a")); // a
 console.log(mostFrequentChar("aa")); // a
 console.log(mostFrequentChar("aaa")); // a
-console.log(mostFrequentChar("abcdefghijklmnopqrstuvwxyz")); // 'z'
+console.log(mostFrequentChar("abcdefghijklmnopqrstuvwxyz")); // 'a'

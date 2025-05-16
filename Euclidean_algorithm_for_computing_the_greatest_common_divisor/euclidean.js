@@ -19,7 +19,7 @@
 const EuclideanGCD = (a, b) => {
   a = Math.abs(a);
   b = Math.abs(b);
-  if (a == 0 && b == 0) return NULL;
+  if (a == 0 && b == 0) return null;
 
   if (a == 0 && b != 0) return b;
   if (a != 0 && b == 0) return a;

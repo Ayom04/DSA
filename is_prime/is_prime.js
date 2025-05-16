@@ -3,6 +3,9 @@
  * isPrime -  returns true if the number is prime, false otherwise.
  * @param {*} n 
  * @returns boolean
+ * Complexity: 
+ * Time: O(sqrt(n))
+ * Space: O(1)
  */
 
 const isPrime = (n) => {
@@ -25,9 +28,15 @@ console.log(isPrime(13)); // true
 console.log(isPrime(15)); // false
 console.log(isPrime(23)); // true
 
+/**
+ * _isPrime - returns true if the number is prime, false otherwise.
+ * @param {*} number - The number to check if it is prime.
+ * @returns  boolean - true if the number is prime, false otherwise.
+ * Complexity:
+ * Time: O(n)
+ * Space: O(1)
+ */
 const _isPrime = function (number) {
-  // Time complexity: O(n)
-  // Space complexity: O(1)
   for (let i = 2; i < number; i++) {
     if (number % i === 0) {
       return false;
