@@ -19,9 +19,9 @@ def factorial(n):
     return total
 
 
-print(factorial(5))
-print(factorial(6))
-print(factorial(7))
+print(factorial(5))  # 120
+print(factorial(6))  # 720
+print(factorial(7))  # 5040
 
 
 def factorialRecursive(n):

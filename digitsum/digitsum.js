@@ -8,7 +8,10 @@
  * Space: O(1) - no additional space is used except for the variables `total` and `val`
  */
 const digitSum = (n) => {
-  let total = n.split("").reduce((acc, val) => acc + Number(val), 0);
+  n = Math.abs(Number(n));
+  let total = String(n)
+    .split("")
+    .reduce((acc, val) => acc + Number(val), 0);
   return total;
 };
 

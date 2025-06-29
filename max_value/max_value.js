@@ -39,4 +39,4 @@ console.log(maxValue([10, 20, 30, 40])); // 40
 console.log(maxValue([100, 50, 200])); // 200
 console.log(maxValue([1])); // 1
 console.log(maxValue([3, 2, 1])); // 3
-console.log(maxValue([0, -10, -20, -30])); // -10
+console.log(maxValue([0, -10, -20, -30])); // 0
