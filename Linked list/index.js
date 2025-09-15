@@ -16,27 +16,26 @@ d.next = e;
 e.next = null;
 // 1 -> 2 -> 3 -> 4 -> 5 -> null
 
-// console.log(a);
-// const linkedList=(head)=>{
-//     const arr=[]
-//     _linkedList(head, arr)
-
-//     return arr.push
-
-// }
-// const _linkedList =(head, arr)=>{
-//     if (head===null)return
-//     values.push(head.value)
-
-// }
-
 const linkedList = (head) => {
   const arr = [];
+  _linkedList(head, arr);
 
-  while (head != null) {
-    arr.push(head.value);
-    head = head.next;
-  }
   return arr;
 };
+const _linkedList = (head, arr) => {
+  if (head === null) return;
+  arr.push(head.value);
+  _linkedList(head.next, arr);
+};
+
 console.log(linkedList(a));
+// const linkedList =(head)=>{
+//     const arr=[]
+
+//     while(head != null){
+
+//         arr.push(head.value)
+//         head = head.next
+//     }
+//     return arr
+// }
